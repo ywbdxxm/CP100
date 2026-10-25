@@ -1,0 +1,693 @@
+{
+  "id": "req_331",
+  "ok": true,
+  "result": {
+    "passed": false,
+    "summary": {
+      "floatingPins": 0,
+      "componentsWithFloating": 0,
+      "geomNetMismatches": 0,
+      "netMarkerMismatches": 0,
+      "multiNetWires": 0,
+      "wireCrossings": 2,
+      "wireOverPins": 0,
+      "zeroLengthWires": 0,
+      "danglingWires": 0,
+      "duplicateNetMarkers": 0,
+      "titleblockOverlaps": 0,
+      "outOfSheet": 3,
+      "markerOverlaps": 15,
+      "missingPartitions": 2,
+      "redundantNetMarkers": 0,
+      "foldedNetLabels": 0,
+      "reversedNetFlags": 0,
+      "polarityConventionOutliers": 0,
+      "total": 32
+    },
+    "findings": [
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 1000,
+          "y": 270
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 1140,
+          "y": 740
+        }
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "L1",
+        "primitiveId": "109572eee4700136",
+        "message": "L1(part) 与 GNSS_ANT_BIAS(netport) 视觉重叠 33.00×4.52 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "109572eee4700136",
+          "45b101af0706c1e6"
+        ],
+        "bbox": {
+          "minX": 1553.5000062498827,
+          "minY": 599.9775000312471,
+          "maxX": 1586.5000499996825,
+          "maxY": 604.500049999704
+        },
+        "other": {
+          "primitiveId": "45b101af0706c1e6",
+          "componentType": "netport",
+          "net": "GNSS_ANT_BIAS",
+          "bbox": {
+            "minX": 1500.5,
+            "minY": 594.5,
+            "maxX": 1586.5,
+            "maxY": 605.5
+          }
+        },
+        "overlapX": 33,
+        "overlapY": 4.52
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "148690a7d566a8f9",
+        "markerNet": "GNSS_ANT",
+        "message": "GNSS_ANT(netport) 与 U10(part) 视觉重叠 56.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "148690a7d566a8f9",
+          "2420d4e7f6ba132a"
+        ],
+        "bbox": {
+          "minX": 1343.5,
+          "minY": 564.5,
+          "maxX": 1399.5,
+          "maxY": 575.5
+        },
+        "other": {
+          "primitiveId": "2420d4e7f6ba132a",
+          "componentType": "part",
+          "designator": "U10",
+          "bbox": {
+            "minX": 1289.5,
+            "minY": 549.5,
+            "maxX": 1410.5,
+            "maxY": 650.5
+          }
+        },
+        "overlapX": 56,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "U6",
+        "primitiveId": "1c24b95ad3252c89",
+        "message": "U6(part) 与 GNSS_ONOFF(netport) 视觉重叠 45.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "1c24b95ad3252c89",
+          "f61bc15e587361e6"
+        ],
+        "bbox": {
+          "minX": 1034.5,
+          "minY": 609.5,
+          "maxX": 1105.5,
+          "maxY": 950.5
+        },
+        "other": {
+          "primitiveId": "f61bc15e587361e6",
+          "componentType": "netport",
+          "net": "GNSS_ONOFF",
+          "bbox": {
+            "minX": 1011.5,
+            "minY": 694.5000000000001,
+            "maxX": 1079.5,
+            "maxY": 705.5000000000001
+          }
+        },
+        "overlapX": 45,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "2167515162ddb964",
+        "markerNet": "GND",
+        "message": "GND(netflag) 与 IMU_C1(netport) 视觉重叠 10.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "2167515162ddb964",
+          "ef4b431b78d0db7c"
+        ],
+        "bbox": {
+          "minX": 695.5,
+          "minY": 414.4999999999999,
+          "maxX": 705.5,
+          "maxY": 435.4999999999999
+        },
+        "other": {
+          "primitiveId": "ef4b431b78d0db7c",
+          "componentType": "netport",
+          "net": "IMU_C1",
+          "bbox": {
+            "minX": 674.5,
+            "minY": 429.5,
+            "maxX": 705.5,
+            "maxY": 440.5
+          }
+        },
+        "overlapX": 10,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "designator": "U10",
+        "primitiveId": "2420d4e7f6ba132a",
+        "message": "U10(part) 与 GNSS_ANT_BIAS(netport) 视觉重叠 27.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "part",
+        "primitiveIds": [
+          "2420d4e7f6ba132a",
+          "679bcb9a34dbfed0"
+        ],
+        "bbox": {
+          "minX": 1289.5,
+          "minY": 549.5,
+          "maxX": 1410.5,
+          "maxY": 650.5
+        },
+        "other": {
+          "primitiveId": "679bcb9a34dbfed0",
+          "componentType": "netport",
+          "net": "GNSS_ANT_BIAS",
+          "bbox": {
+            "minX": 1383.5,
+            "minY": 594.5,
+            "maxX": 1469.5,
+            "maxY": 605.5
+          }
+        },
+        "overlapX": 27,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "27370ae50648b35e",
+        "markerNet": "GNSS_RESET",
+        "message": "GNSS_RESET(netport) 与 +3V3(netflag) 视觉重叠 20.50×7.50 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "27370ae50648b35e",
+          "ebd6237e31d073c1"
+        ],
+        "bbox": {
+          "minX": 1199.5,
+          "minY": 554.5000000000001,
+          "maxX": 1230.5,
+          "maxY": 565.5000000000001
+        },
+        "other": {
+          "primitiveId": "ebd6237e31d073c1",
+          "componentType": "netflag",
+          "net": "+3V3",
+          "bbox": {
+            "minX": 1196,
+            "minY": 550,
+            "maxX": 1220,
+            "maxY": 562
+          }
+        },
+        "overlapX": 20.5,
+        "overlapY": 7.5
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "2988ada75d8f0618",
+        "markerNet": "+3V3",
+        "message": "+3V3(netflag) 与 GND(netflag) 视觉重叠 18.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "2988ada75d8f0618",
+          "441a010ba625ce5f"
+        ],
+        "bbox": {
+          "minX": 956,
+          "minY": 445,
+          "maxX": 980,
+          "maxY": 457
+        },
+        "other": {
+          "primitiveId": "441a010ba625ce5f",
+          "componentType": "netflag",
+          "net": "GND",
+          "bbox": {
+            "minX": 962,
+            "minY": 435,
+            "maxX": 980,
+            "maxY": 447
+          }
+        },
+        "overlapX": 18,
+        "overlapY": 2
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "2988ada75d8f0618",
+        "markerNet": "+3V3",
+        "message": "+3V3(netflag) 与 +3V3(netflag) 视觉重叠 24.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "2988ada75d8f0618",
+          "c70ebe702daf48ed"
+        ],
+        "bbox": {
+          "minX": 956,
+          "minY": 445,
+          "maxX": 980,
+          "maxY": 457
+        },
+        "other": {
+          "primitiveId": "c70ebe702daf48ed",
+          "componentType": "netflag",
+          "net": "+3V3",
+          "bbox": {
+            "minX": 956,
+            "minY": 455,
+            "maxX": 980,
+            "maxY": 467
+          }
+        },
+        "overlapX": 24,
+        "overlapY": 2
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "2e41a76b11255a9d",
+        "markerNet": "GND",
+        "message": "GND(netflag) 与 GNSS_TX(netport) 视觉重叠 10.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "2e41a76b11255a9d",
+          "53b2ba23ed4cf699"
+        ],
+        "bbox": {
+          "minX": 1220.5,
+          "minY": 629.5,
+          "maxX": 1230.5,
+          "maxY": 650.5
+        },
+        "other": {
+          "primitiveId": "53b2ba23ed4cf699",
+          "componentType": "netport",
+          "net": "GNSS_TX",
+          "bbox": {
+            "minX": 1199.5,
+            "minY": 624.5000000000001,
+            "maxX": 1230.5,
+            "maxY": 635.5000000000001
+          }
+        },
+        "overlapX": 10,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "441a010ba625ce5f",
+        "markerNet": "GND",
+        "message": "GND(netflag) 与 MAG_INT(netport) 视觉重叠 10.00×6.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "441a010ba625ce5f",
+          "913d79c990b7bcb8"
+        ],
+        "bbox": {
+          "minX": 989.5,
+          "minY": 424.5,
+          "maxX": 999.5,
+          "maxY": 445.5
+        },
+        "other": {
+          "primitiveId": "913d79c990b7bcb8",
+          "componentType": "netport",
+          "net": "MAG_INT",
+          "bbox": {
+            "minX": 989.5,
+            "minY": 419.5,
+            "maxX": 1020.5,
+            "maxY": 430.5
+          }
+        },
+        "overlapX": 10,
+        "overlapY": 6
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "45b101af0706c1e6",
+        "markerNet": "GNSS_ANT_BIAS",
+        "message": "GNSS_ANT_BIAS(netport) 与 GNSS_ANT_BIAS(netport) 视觉重叠 31.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "45b101af0706c1e6",
+          "679bcb9a34dbfed0"
+        ],
+        "bbox": {
+          "minX": 1469.5,
+          "minY": 594.5,
+          "maxX": 1500.5,
+          "maxY": 605.5
+        },
+        "other": {
+          "primitiveId": "679bcb9a34dbfed0",
+          "componentType": "netport",
+          "net": "GNSS_ANT_BIAS",
+          "bbox": {
+            "minX": 1469.5,
+            "minY": 594.5,
+            "maxX": 1500.5,
+            "maxY": 605.5
+          }
+        },
+        "overlapX": 31,
+        "overlapY": 11
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "61e7fb5d3b207319",
+        "markerNet": "BAT_ADC",
+        "message": "BAT_ADC(netport) 与 R34(part) 视觉重叠 21.00×9.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "61e7fb5d3b207319",
+          "c47017d73869b60b"
+        ],
+        "bbox": {
+          "minX": 1030.5,
+          "minY": 544.5,
+          "maxX": 1080.5,
+          "maxY": 555.5
+        },
+        "other": {
+          "primitiveId": "c47017d73869b60b",
+          "componentType": "part",
+          "designator": "R34",
+          "bbox": {
+            "minX": 1049.5,
+            "minY": 545.5,
+            "maxX": 1070.5,
+            "maxY": 554.5
+          }
+        },
+        "overlapX": 21,
+        "overlapY": 9
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "672adc5a671e384c",
+        "markerNet": "BAT_ADC",
+        "message": "BAT_ADC(netport) 与 R33(part) 视觉重叠 21.00×9.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netport",
+        "primitiveIds": [
+          "672adc5a671e384c",
+          "cb7aef0ce9bcff83"
+        ],
+        "bbox": {
+          "minX": 909.4999999999999,
+          "minY": 544.5000000000001,
+          "maxX": 959.4999999999999,
+          "maxY": 555.5000000000001
+        },
+        "other": {
+          "primitiveId": "cb7aef0ce9bcff83",
+          "componentType": "part",
+          "designator": "R33",
+          "bbox": {
+            "minX": 919.5,
+            "minY": 545.5,
+            "maxX": 940.5,
+            "maxY": 554.5
+          }
+        },
+        "overlapX": 21,
+        "overlapY": 9
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "a0a91ef715ea1166",
+        "markerNet": "+3V3",
+        "message": "+3V3(netflag) 与 +3V3(netflag) 视觉重叠 24.00×2.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "a0a91ef715ea1166",
+          "f4dff38cfcff6159"
+        ],
+        "bbox": {
+          "minX": 715,
+          "minY": 455,
+          "maxX": 739,
+          "maxY": 467
+        },
+        "other": {
+          "primitiveId": "f4dff38cfcff6159",
+          "componentType": "netflag",
+          "net": "+3V3",
+          "bbox": {
+            "minX": 715,
+            "minY": 465,
+            "maxX": 739,
+            "maxY": 477
+          }
+        },
+        "overlapX": 24,
+        "overlapY": 2
+      },
+      {
+        "type": "marker-overlap",
+        "level": "warn",
+        "primitiveId": "c6f0427b37d04a4e",
+        "markerNet": "GND",
+        "message": "GND(netflag) 与 GND(netport) 视觉重叠 10.00×11.00 — `sch destagger` 可自动搬(默认只算不动),或换方向/offset",
+        "componentType": "netflag",
+        "primitiveIds": [
+          "c6f0427b37d04a4e",
+          "ca4fad50558134fb"
+        ],
+        "bbox": {
+          "minX": 1194.5,
+          "minY": 839.5,
+          "maxX": 1204.5,
+          "maxY": 860.5
+        },
+        "other": {
+          "primitiveId": "ca4fad50558134fb",
+          "componentType": "netport",
+          "net": "GND",
+          "bbox": {
+            "minX": 1194.5,
+            "minY": 844.5,
+            "maxX": 1225.5,
+            "maxY": 855.5
+          }
+        },
+        "overlapX": 10,
+        "overlapY": 11
+      },
+      {
+        "type": "out-of-sheet",
+        "level": "warn",
+        "primitiveId": "a590fbb86ae3ec49",
+        "message": "netport 的可见属性 Name 超出纸张（1605..1682 × 565..575）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示",
+        "bbox": {
+          "minX": 1605,
+          "minY": 565,
+          "maxX": 1682.3101806640625,
+          "maxY": 575
+        }
+      },
+      {
+        "type": "out-of-sheet",
+        "level": "warn",
+        "primitiveId": "7e4276dd7d7c0ea3",
+        "message": "netport 的可见属性 Name 超出纸张（1615..1692 × 775..785）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示",
+        "bbox": {
+          "minX": 1615,
+          "minY": 775,
+          "maxX": 1692.3101806640625,
+          "maxY": 785
+        }
+      },
+      {
+        "type": "out-of-sheet",
+        "level": "warn",
+        "primitiveId": "e4b2b2c449eeb736",
+        "message": "netport 的可见属性 Name 超出纸张（1645..1722 × 595..605）— 打印不出来；移回图内，或不需要显示时关闭该属性的显示",
+        "bbox": {
+          "minX": 1645,
+          "minY": 595,
+          "maxX": 1722.3101806640625,
+          "maxY": 605
+        }
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "R33",
+        "primitiveId": "00275c91d0340db3",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "00275c91d0340db3",
+          "672adc5a671e384c"
+        ],
+        "bbox": {
+          "minX": 920,
+          "minY": 555,
+          "maxX": 936.0516357421875,
+          "maxY": 565
+        },
+        "overlapX": 16.0516357421875,
+        "overlapY": 0.5000000000001137
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "R34",
+        "primitiveId": "65577a120d7d308a",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "65577a120d7d308a",
+          "61e7fb5d3b207319"
+        ],
+        "bbox": {
+          "minX": 1050,
+          "minY": 555,
+          "maxX": 1066.0516357421875,
+          "maxY": 565
+        },
+        "overlapX": 16.0516357421875,
+        "overlapY": 0.5
+      },
+      {
+        "type": "designator-wire-overlap",
+        "level": "warn",
+        "designator": "R21",
+        "primitiveId": "b4f772a30afa6397",
+        "wirePrimitiveId": "02ca8efafebf3905",
+        "message": "wire crosses Designator text bbox",
+        "bbox": {
+          "minX": 190,
+          "minY": 745,
+          "maxX": 206.0516357421875,
+          "maxY": 755
+        }
+      },
+      {
+        "type": "designator-wire-overlap",
+        "level": "warn",
+        "designator": "C34",
+        "primitiveId": "c0ed4c6c927c9c32",
+        "wirePrimitiveId": "b33cd90094c6c966",
+        "message": "wire crosses Designator text bbox",
+        "bbox": {
+          "minX": 1490,
+          "minY": 710,
+          "maxX": 1506.0516357421875,
+          "maxY": 720
+        }
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "R29",
+        "primitiveId": "dd11e5f1858302d4",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "dd11e5f1858302d4",
+          "27370ae50648b35e"
+        ],
+        "bbox": {
+          "minX": 1170,
+          "minY": 555,
+          "maxX": 1186.0516357421875,
+          "maxY": 565
+        },
+        "overlapX": 16.0516357421875,
+        "overlapY": 10
+      },
+      {
+        "type": "designator-overlap",
+        "level": "warn",
+        "designator": "L1",
+        "primitiveId": "eb4c7309d0b78477",
+        "message": "Designator overlaps body/marker/title/another designator; non-designator properties excluded",
+        "primitiveIds": [
+          "eb4c7309d0b78477",
+          "45b101af0706c1e6"
+        ],
+        "bbox": {
+          "minX": 1555,
+          "minY": 605,
+          "maxX": 1564.732666015625,
+          "maxY": 615
+        },
+        "overlapX": 9.732666015625,
+        "overlapY": 0.5
+      },
+      {
+        "type": "missing-partition",
+        "level": "warn",
+        "count": 44,
+        "message": "44 个器件的页已分成 4 个功能模块(虚拟组/认领)但一个分区框都没画 — 铁律#15:`sch zone-draw --mode partition`;被拒(partitionOverlap / titleBlockHits)就先跑 `sch zone-plan` 看逐条 ✗ —— 它点名是哪两个区顶住、还差多少,并给出一条 `sch zone move --zone \u003c区\u003e --dx/--dy \u003c量\u003e` 的最小挪动;挪完再画,整页重排 `sch zone-arrange --apply` 或拆页是最后一档"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U8",
+        "message": "模块 POWER_CHARGE(核心 U8,外围 J2,C20,C21,C22,C28,C29,C32,C33,R20,R21,R22,R23,R24,R25)没有全部用实际导线接到核心: peripheral-direct-missing: module POWER_CHARGE dedicated signal BAT pins [U8.2 U8.3 J2.1] are split into physical wire islands (at U8.3); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U6",
+        "message": "模块 MCU_CTRL(核心 U6,外围 C23,C24,C26,R28,R31,R32,R33,R34,R35)没有全部用实际导线接到核心: peripheral-direct-missing: module MCU_CTRL dedicated signal BAT_ADC pins [U6.5 R33.2 R34.1] are split into physical wire islands (at R33.2); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U7",
+        "message": "模块 IMU_SENSOR(核心 U7,外围 C27,C35,R26,R27)没有全部用实际导线接到核心: peripheral-direct-missing: module IMU_SENSOR dedicated signal I2C_SCL pins [U7.1 R27.1] are split into physical wire islands (at R27.1); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U10",
+        "message": "模块 GNSS(核心 U10,外围 C25,C31,C34,R29,R30)没有全部用实际导线接到核心: peripheral-direct-missing: module GNSS dedicated signal GNSS_ONOFF pins [U10.7 R30.1] are split into physical wire islands (at R30.1); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      },
+      {
+        "type": "missing-titleblock",
+        "level": "warn",
+        "count": 1,
+        "message": "图签未填:Drawed(设计者) — 交付图必须能认领(`sch titleblock --data '{\"Name\":\"…\",\"Drawed\":\"…\"}'`)"
+      }
+    ]
+  },
+  "type": "response",
+  "version": "v1"
+}

@@ -1,0 +1,293 @@
+{
+  "overall": 61,
+  "verdict": "fair",
+  "dimensions": [
+    {
+      "id": "folded-labels",
+      "title": "标签折叠",
+      "status": "scored",
+      "score": 100,
+      "weight": 1.2
+    },
+    {
+      "id": "reversed-labels",
+      "title": "标签反向",
+      "status": "scored",
+      "score": 20,
+      "weight": 1.2,
+      "attributions": [
+        {
+          "dimension": "reversed-labels",
+          "target": "C36:2",
+          "penalty": 20,
+          "message": "C36 的 GNSS_ANT_NODE netport 背向核心 U6(朝右,核心在左)",
+          "fix": "easyeda sch disconnect --pin C36:2 \u0026\u0026 easyeda sch connect --x 1520 --y 570 --kind netport --net GNSS_ANT_NODE --direction left --offset 24",
+          "at": {
+            "x": 1560,
+            "y": 570
+          }
+        },
+        {
+          "dimension": "reversed-labels",
+          "target": "J3:1",
+          "penalty": 20,
+          "message": "J3 的 GNSS_ANT_NODE netport 背向核心 U6(朝右,核心在左)",
+          "fix": "easyeda sch disconnect --pin J3:1 \u0026\u0026 easyeda sch connect --x 1530 --y 780 --kind netport --net GNSS_ANT_NODE --direction left --offset 24",
+          "at": {
+            "x": 1570,
+            "y": 780
+          }
+        },
+        {
+          "dimension": "reversed-labels",
+          "target": "L1:2",
+          "penalty": 20,
+          "message": "L1 的 GNSS_ANT_NODE netport 背向核心 U10(朝右,核心在左)",
+          "fix": "easyeda sch disconnect --pin L1:2 \u0026\u0026 easyeda sch connect --x 1590 --y 600 --kind netport --net GNSS_ANT_NODE --direction left --offset 24",
+          "at": {
+            "x": 1600,
+            "y": 600
+          }
+        },
+        {
+          "dimension": "reversed-labels",
+          "target": "R30:1",
+          "penalty": 20,
+          "message": "R30 的 GNSS_ONOFF netport 背向核心 U10(朝左,核心在右)",
+          "fix": "easyeda sch disconnect --pin R30:1 \u0026\u0026 easyeda sch connect --x 1160 --y 700 --kind netport --net GNSS_ONOFF --direction right --offset 24",
+          "at": {
+            "x": 1120,
+            "y": 700
+          }
+        }
+      ]
+    },
+    {
+      "id": "proximity",
+      "title": "外围贴核心",
+      "status": "scored",
+      "score": 93.6,
+      "weight": 1,
+      "attributions": [
+        {
+          "dimension": "proximity",
+          "target": "C36",
+          "penalty": 2,
+          "message": "C36 距核心 U6 边距 385(\u003e150 开始扣分)— 建议移到 U6 下方 (1070,570) 附近后重连(未分区,按全页最大件推核心,建议先 sch zones set 落认领再复核)",
+          "fix": "easyeda sch modify --id 2dc807bd7ecc44d4 --patch '{\"x\":1070,\"y\":570}'",
+          "at": {
+            "x": 1500,
+            "y": 570
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "R26",
+          "penalty": 1.9,
+          "message": "R26 距核心 U7 边距 370(\u003e150 开始扣分)— 建议移到 U7 上方 (850,525) 附近后重连",
+          "fix": "easyeda sch modify --id a427bb85cb4ff403 --patch '{\"x\":850,\"y\":525}'",
+          "at": {
+            "x": 870,
+            "y": 860
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "C23",
+          "penalty": 1.2,
+          "message": "C23 距核心 U6 边距 286(\u003e150 开始扣分)— 建议移到 U6 下方 (1070,570) 附近后重连",
+          "fix": "easyeda sch modify --id ad3717ce10518edf --patch '{\"x\":1070,\"y\":570}'",
+          "at": {
+            "x": 740,
+            "y": 700
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "C22",
+          "penalty": 0.4,
+          "message": "C22 距核心 U8 边距 191(\u003e150 开始扣分)— 建议移到 U8 下方 (320,680) 附近后重连",
+          "fix": "easyeda sch modify --id f27f29b96ae45508 --patch '{\"x\":320,\"y\":680}'",
+          "at": {
+            "x": 560,
+            "y": 700
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "C29",
+          "penalty": 0.3,
+          "message": "C29 距核心 U8 边距 189(\u003e150 开始扣分)— 建议移到 U8 上方 (320,920) 附近后重连",
+          "fix": "easyeda sch modify --id 30c4edbe35a63276 --patch '{\"x\":320,\"y\":920}'",
+          "at": {
+            "x": 560,
+            "y": 900
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "C24",
+          "penalty": 0.2,
+          "message": "C24 距核心 U6 边距 176(\u003e150 开始扣分)— 建议移到 U6 下方 (1070,570) 附近后重连",
+          "fix": "easyeda sch modify --id f27daa965aa74da0 --patch '{\"x\":1070,\"y\":570}'",
+          "at": {
+            "x": 850,
+            "y": 650
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "C25",
+          "penalty": 0.1,
+          "message": "C25 距核心 U10 边距 161(\u003e150 开始扣分)— 建议移到 U10 下方 (1350,510) 附近后重连",
+          "fix": "easyeda sch modify --id 4db8100e6614b56f --patch '{\"x\":1350,\"y\":510}'",
+          "at": {
+            "x": 1500,
+            "y": 400
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "C32",
+          "penalty": 0.1,
+          "message": "C32 距核心 U8 边距 161(\u003e150 开始扣分)— 建议移到 U8 下方 (320,680) 附近后重连",
+          "fix": "easyeda sch modify --id 4171a1d370a393de --patch '{\"x\":320,\"y\":680}'",
+          "at": {
+            "x": 520,
+            "y": 650
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "R23",
+          "penalty": 0.1,
+          "message": "R23 距核心 U8 边距 161(\u003e150 开始扣分)— 建议移到 U8 下方 (320,680) 附近后重连",
+          "fix": "easyeda sch modify --id 372fa2b7b161a077 --patch '{\"x\":320,\"y\":680}'",
+          "at": {
+            "x": 200,
+            "y": 570
+          }
+        },
+        {
+          "dimension": "proximity",
+          "target": "C33",
+          "penalty": 0,
+          "message": "C33 距核心 U8 边距 155(\u003e150 开始扣分)— 建议移到 U8 上方 (320,920) 附近后重连",
+          "fix": "easyeda sch modify --id b119114c62eaefa8 --patch '{\"x\":320,\"y\":920}'",
+          "at": {
+            "x": 520,
+            "y": 930
+          }
+        }
+      ]
+    },
+    {
+      "id": "stub-tidiness",
+      "title": "长链/挤压",
+      "status": "scored",
+      "score": 44,
+      "weight": 0.8,
+      "attributions": [
+        {
+          "dimension": "stub-tidiness",
+          "target": "R29↔R34",
+          "penalty": 8,
+          "message": "R29 与 R34 同排净距 99 \u003c 117(相向水平 netport 标签最小距)— 拉开间距(sch distribute --axis x)或把一侧标签换 direction"
+        },
+        {
+          "dimension": "stub-tidiness",
+          "target": "R33↔C35",
+          "penalty": 8,
+          "message": "R33 与 C35 同排净距 59 \u003c 117(相向水平 netport 标签最小距)— 拉开间距(sch distribute --axis x)或把一侧标签换 direction"
+        },
+        {
+          "dimension": "stub-tidiness",
+          "target": "R33↔R34",
+          "penalty": 8,
+          "message": "R33 与 R34 同排净距 109 \u003c 117(相向水平 netport 标签最小距)— 拉开间距(sch distribute --axis x)或把一侧标签换 direction"
+        },
+        {
+          "dimension": "stub-tidiness",
+          "target": "U10↔C36",
+          "penalty": 8,
+          "message": "U10 与 C36 同排净距 79 \u003c 117(相向水平 netport 标签最小距)— 拉开间距(sch distribute --axis x)或把一侧标签换 direction"
+        },
+        {
+          "dimension": "stub-tidiness",
+          "target": "U10↔R29",
+          "penalty": 8,
+          "message": "U10 与 R29 同排净距 99 \u003c 117(相向水平 netport 标签最小距)— 拉开间距(sch distribute --axis x)或把一侧标签换 direction"
+        },
+        {
+          "dimension": "stub-tidiness",
+          "target": "U6↔C26",
+          "penalty": 8,
+          "message": "U6 与 C26 同排净距 74 \u003c 117(相向水平 netport 标签最小距)— 拉开间距(sch distribute --axis x)或把一侧标签换 direction"
+        },
+        {
+          "dimension": "stub-tidiness",
+          "target": "U6↔R30",
+          "penalty": 8,
+          "message": "U6 与 R30 同排净距 64 \u003c 117(相向水平 netport 标签最小距)— 拉开间距(sch distribute --axis x)或把一侧标签换 direction"
+        }
+      ]
+    },
+    {
+      "id": "frame-fit",
+      "title": "版面整洁",
+      "status": "scored",
+      "score": 28,
+      "weight": 0.5,
+      "reason": "现场框/自由文字/位号 bbox 已测；非位号属性文字按验收范围排除；标记文字带为估算",
+      "attributions": [
+        {
+          "dimension": "frame-fit",
+          "target": "C34",
+          "penalty": 12,
+          "message": "designator-wire-overlap: wire crosses Designator text bbox"
+        },
+        {
+          "dimension": "frame-fit",
+          "target": "L1",
+          "penalty": 12,
+          "message": "designator-overlap: Designator overlaps body/marker/title/another designator; non-designator properties excluded"
+        },
+        {
+          "dimension": "frame-fit",
+          "target": "R21",
+          "penalty": 12,
+          "message": "designator-wire-overlap: wire crosses Designator text bbox"
+        },
+        {
+          "dimension": "frame-fit",
+          "target": "R29",
+          "penalty": 12,
+          "message": "designator-overlap: Designator overlaps body/marker/title/another designator; non-designator properties excluded"
+        },
+        {
+          "dimension": "frame-fit",
+          "target": "R33",
+          "penalty": 12,
+          "message": "designator-overlap: Designator overlaps body/marker/title/another designator; non-designator properties excluded"
+        },
+        {
+          "dimension": "frame-fit",
+          "target": "R34",
+          "penalty": 12,
+          "message": "designator-overlap: Designator overlaps body/marker/title/another designator; non-designator properties excluded"
+        }
+      ]
+    }
+  ],
+  "dimensionScores": {
+    "folded-labels": 100,
+    "frame-fit": 28,
+    "proximity": 93.6,
+    "reversed-labels": 20,
+    "stub-tidiness": 44
+  },
+  "componentCount": 128,
+  "scoredDims": 5,
+  "skippedDims": 0,
+  "summary": "sch layout-score: 综合 61.0 [fair] — 5 维已测 / 0 维未测(skipped≠满分),128 图元"
+}

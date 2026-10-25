@@ -1,5 +1,5 @@
 {
-  "id": "req_11057",
+  "id": "req_354",
   "ok": true,
   "result": {
     "passed": true,
@@ -9,18 +9,18 @@
     "summary": {
       "fatal": 0,
       "error": 0,
-      "warn": 8,
+      "warn": 6,
       "info": 0,
       "unknown": 0,
-      "total": 8
+      "total": 6
     },
     "violations": [
       {
         "level": "warn",
         "type": "warn",
-        "count": 8,
+        "count": 6,
         "raw": {
-          "count": 8,
+          "count": 6,
           "type": "warn"
         }
       }

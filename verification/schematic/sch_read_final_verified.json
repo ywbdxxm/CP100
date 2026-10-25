@@ -1,9 +1,9 @@
 {
-  "id": "req_11055",
+  "id": "req_329",
   "type": "response",
   "version": "v1",
-  "windowId": "ead08360-0817-4f02-8bf9-998b906d5e97",
-  "createdAt": "2026-10-24T20:00:21.7429626Z",
+  "windowId": "7bbb5c92-66f9-4cd8-b8e9-12f126bafdab",
+  "createdAt": "2026-10-25T09:21:11.8752431Z",
   "ok": true,
   "result": {
     "check": {
@@ -47,7 +47,7 @@
             {
               "primitiveId": "2f9d52c339ce881a",
               "rawEncoding": "flat-segments",
-              "segmentIndex": 22
+              "segmentIndex": 21
             }
           ],
           "type": "wire-crossing"
@@ -68,7 +68,7 @@
         "zeroLengthWires": 0
       }
     },
-    "componentCount": 85,
+    "componentCount": 128,
     "components": [
       {
         "componentType": "part",
@@ -1126,8 +1126,8 @@
         "primitiveId": "9522f5e0f0f73fc4",
         "supplierId": "C25744",
         "uniqueId": "gge78",
-        "x": 460,
-        "y": 900
+        "x": 1120,
+        "y": 980
       },
       {
         "componentType": "part",
@@ -1153,8 +1153,8 @@
         "primitiveId": "538108953f0df7b0",
         "supplierId": "C25744",
         "uniqueId": "gge79",
-        "x": 500,
-        "y": 850
+        "x": 960,
+        "y": 1020
       },
       {
         "componentType": "part",
@@ -1288,8 +1288,8 @@
         "primitiveId": "cb7aef0ce9bcff83",
         "supplierId": "C25795",
         "uniqueId": "gge80",
-        "x": 400,
-        "y": 400
+        "x": 930,
+        "y": 550
       },
       {
         "componentType": "part",
@@ -1315,8 +1315,8 @@
         "primitiveId": "c47017d73869b60b",
         "supplierId": "C25741",
         "uniqueId": "gge81",
-        "x": 550,
-        "y": 400
+        "x": 1060,
+        "y": 550
       },
       {
         "componentType": "part",
@@ -2003,46 +2003,6 @@
         "footprint": {
           "uuid": ""
         },
-        "name": "+3V3",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "aaf79973e0a1ee12",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 500,
-        "y": 900
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": {
-          "uuid": ""
-        },
-        "name": "BAT",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "670da8cc9740273d",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 360,
-        "y": 400
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": {
-          "uuid": ""
-        },
         "name": "VDD",
         "pins": [
           {
@@ -2331,51 +2291,11 @@
             "number": "1"
           }
         ],
-        "primitiveId": "e47cf92f86dcf60a",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 1220,
-        "y": 550
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": {
-          "uuid": ""
-        },
-        "name": "+3V3",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
         "primitiveId": "3c28b91f600739af",
         "supplierId": "",
         "uniqueId": "",
         "x": 1250,
         "y": 700
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": {
-          "uuid": ""
-        },
-        "name": "+3V3",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
-        "primitiveId": "db897da2d950dbcd",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 1260,
-        "y": 590
       },
       {
         "componentType": "netflag",
@@ -2411,11 +2331,31 @@
             "number": "1"
           }
         ],
-        "primitiveId": "16be9bb2448af082",
+        "primitiveId": "74bcf8ec260feb39",
         "supplierId": "",
         "uniqueId": "",
-        "x": 910,
-        "y": 860
+        "x": 850,
+        "y": 610
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "BAT",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "9568d57b87d03d9f",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1240,
+        "y": 570
       },
       {
         "componentType": "netflag",
@@ -2431,11 +2371,11 @@
             "number": "1"
           }
         ],
-        "primitiveId": "0c179247d571dacd",
+        "primitiveId": "46c1b4edb08f8259",
         "supplierId": "",
         "uniqueId": "",
-        "x": 1050,
-        "y": 500
+        "x": 1240,
+        "y": 590
       },
       {
         "componentType": "netflag",
@@ -2451,10 +2391,50 @@
             "number": "1"
           }
         ],
-        "primitiveId": "d67f344008c3e227",
+        "primitiveId": "0f9a975200c234a0",
         "supplierId": "",
         "uniqueId": "",
-        "x": 725,
+        "x": 1560,
+        "y": 700
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "a0a91ef715ea1166",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 715,
+        "y": 455
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "f4dff38cfcff6159",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 715,
         "y": 465
       },
       {
@@ -2471,11 +2451,91 @@
             "number": "1"
           }
         ],
-        "primitiveId": "74bcf8ec260feb39",
+        "primitiveId": "2988ada75d8f0618",
         "supplierId": "",
         "uniqueId": "",
-        "x": 850,
-        "y": 610
+        "x": 980,
+        "y": 445
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "c70ebe702daf48ed",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 980,
+        "y": 455
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "8b046f71aa106f98",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 590,
+        "y": 350
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "8dcb8ad60b457fb4",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 930,
+        "y": 860
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "44410d585a1e3f99",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1060,
+        "y": 500
       },
       {
         "componentType": "sheet",
@@ -2594,26 +2654,6 @@
             "number": "1"
           }
         ],
-        "primitiveId": "914d402f2465fd3c",
-        "supplierId": "",
-        "uniqueId": "",
-        "x": 1215,
-        "y": 640
-      },
-      {
-        "componentType": "netflag",
-        "designator": "",
-        "footprint": {
-          "uuid": ""
-        },
-        "name": "GND",
-        "pins": [
-          {
-            "name": "Pin1",
-            "net": null,
-            "number": "1"
-          }
-        ],
         "primitiveId": "097a979a20153505",
         "supplierId": "",
         "uniqueId": "",
@@ -2654,10 +2694,730 @@
             "number": "1"
           }
         ],
-        "primitiveId": "c30ff2978670445c",
+        "primitiveId": "7827481f8158760d",
         "supplierId": "",
         "uniqueId": "",
-        "x": 900,
+        "x": 1040,
+        "y": 325
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "1c6016bf40242479",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1460,
+        "y": 580
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "830ecac95c540ee0",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1460,
+        "y": 560
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "2e41a76b11255a9d",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1240,
+        "y": 640
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "6a20f00c86f73d35",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1500,
+        "y": 460
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "66e4f164a0083a12",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1600,
+        "y": 500
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "1936b7e3112871d4",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1440,
+        "y": 700
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "2167515162ddb964",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 715,
+        "y": 425
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "441a010ba625ce5f",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 980,
+        "y": 435
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "73102a8191826a02",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 710,
+        "y": 350
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "c6f0427b37d04a4e",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1185,
+        "y": 850
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ANT_BIAS",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "45b101af0706c1e6",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1460,
+        "y": 600
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ANT_BIAS",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "679bcb9a34dbfed0",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1510,
+        "y": 600
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ANT",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "148690a7d566a8f9",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1440,
+        "y": 570
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ANT_NODE",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "58e7307d15a43d41",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1560,
+        "y": 570
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ANT_NODE",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "d580774aa6fdf89d",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1570,
+        "y": 780
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_RESET",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "27370ae50648b35e",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1240,
+        "y": 560
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ONOFF",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "d4005ef38aef4282",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1240,
+        "y": 580
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_PPS",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "b1e6b7609c6f62e8",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1240,
+        "y": 610
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_TX",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "53b2ba23ed4cf699",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1240,
+        "y": 630
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_RX",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "524ae42d7db5190d",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1240,
+        "y": 620
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ONOFF",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "f61bc15e587361e6",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1120,
+        "y": 700
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "I2C_SCL",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "0d939a5083e2c7f2",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 715,
+        "y": 475
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "I2C_SDA",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "d2ab8b2504b11f79",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 715,
+        "y": 445
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "IMU_C1",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "ef4b431b78d0db7c",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 715,
+        "y": 435
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "IMU_C1",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "c63f38621f987d56",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 790,
+        "y": 550
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "MAG_INT",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "913d79c990b7bcb8",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 980,
+        "y": 425
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "IMU_INT2",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "88dd320235f3a2f8",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 980,
+        "y": 465
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "IMU_INT1",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "1ce035dc5efd36f3",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 980,
+        "y": 475
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "I2C_SDA",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "b14cafea9580c84c",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 810,
+        "y": 860
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "I2C_SCL",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "6810f3d439c76052",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 940,
+        "y": 500
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "ca4fad50558134fb",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1185,
+        "y": 850
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "df333a3a13a986db",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 985,
+        "y": 930
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "c8858aa641c36712",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1160,
+        "y": 980
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "PGOOD_STATUS",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "78f96b838523d4a0",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1060,
+        "y": 980
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "BAT_ADC",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "61e7fb5d3b207319",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 990,
+        "y": 550
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "BAT_ADC",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "672adc5a671e384c",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1000,
         "y": 550
       },
       {
@@ -2674,11 +3434,111 @@
             "number": "1"
           }
         ],
-        "primitiveId": "7827481f8158760d",
+        "primitiveId": "1d4a46ef626a248f",
         "supplierId": "",
         "uniqueId": "",
-        "x": 1040,
-        "y": 325
+        "x": 1100,
+        "y": 550
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "ebd6237e31d073c1",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1220,
+        "y": 550
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "BAT",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "c4176e13886a6693",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 890,
+        "y": 550
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "4877990ab90e3079",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 880,
+        "y": 550
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GNSS_ANT_NODE",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "2d92eb5801a19ce6",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1600,
+        "y": 600
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": {
+          "uuid": ""
+        },
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "ad0b4094eaed4f81",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 920,
+        "y": 1020
       }
     ],
     "floatingPinCount": 29,
@@ -3157,7 +4017,7 @@
     "documentUuid": "85ca39e46377c6d2",
     "documentType": "schematic",
     "tabId": "85ca39e46377c6d2@1be4f1c5e4144fea950b4497cac80aa8",
-    "pageVisibility": "hidden"
+    "pageVisibility": "visible"
   },
   "mutationContext": {
     "projectUuid": "1be4f1c5e4144fea950b4497cac80aa8",
@@ -3165,9 +4025,16 @@
     "documentUuid": "85ca39e46377c6d2",
     "documentType": "schematic",
     "tabId": "85ca39e46377c6d2@1be4f1c5e4144fea950b4497cac80aa8",
-    "pageVisibility": "hidden"
+    "pageVisibility": "visible"
   },
   "mutationContextAvailable": true,
-  "seq": 3177,
-  "seqAbandoned": 0
+  "seq": 1223,
+  "seqAbandoned": 5,
+  "abandonedIds": [
+    "req_13963",
+    "req_13967",
+    "req_13971",
+    "req_4",
+    "req_12"
+  ]
 }
