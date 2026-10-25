@@ -1,0 +1,1227 @@
+{
+  "report": {
+    "ok": false,
+    "incomplete": true,
+    "coverage": {
+      "complete": false,
+      "componentsInventoryKnown": true,
+      "padsInventoryKnown": true,
+      "componentCount": 100,
+      "totalPads": 445,
+      "knownGeometryPads": 443,
+      "unsupportedGeometryPads": 2,
+      "unknownGeometryPads": 0,
+      "legacyGeometryPads": 0,
+      "unverifiedPads": [
+        {
+          "componentPrimitiveId": "aaf3aeec2d2d9867",
+          "designator": "U6",
+          "primitiveId": "aaf3aeec2d2d9867e152",
+          "padNumber": "61",
+          "status": "unsupported",
+          "reason": "POLYGON pad geometry is not supported by pcb net-path"
+        },
+        {
+          "componentPrimitiveId": "ce2837c2e9abb542",
+          "designator": "U8",
+          "primitiveId": "ce2837c2e9abb542e46",
+          "padNumber": "17",
+          "status": "unsupported",
+          "reason": "POLYGON pad geometry is not supported by pcb net-path"
+        }
+      ],
+      "limitations": [
+        "2 pad(s) have captured source shapes unsupported by exact pad-contact inspection"
+      ]
+    },
+    "score": 0,
+    "verdict": "incomplete",
+    "componentCount": 100,
+    "minGapMil": 6,
+    "overlaps": null,
+    "outsideOutline": null,
+    "tightSpacing": null,
+    "silk": [
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C20",
+        "primitives": [
+          "dde3ae2c23ff5277e20"
+        ],
+        "message": "silk text Designator \"C20\" overlaps pad C20.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 577.3,
+          "y": -745
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C21",
+        "primitives": [
+          "4cc3f9aa43a5bf23e20"
+        ],
+        "message": "silk text Designator \"C21\" overlaps pad C21.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 792.3,
+          "y": -470
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C22",
+        "primitives": [
+          "984e3a1f78fd1f63e20"
+        ],
+        "message": "silk text Designator \"C22\" overlaps pad C22.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 730.6,
+          "y": -910
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C23",
+        "primitives": [
+          "fd67fefaa5a16a6de20"
+        ],
+        "message": "silk text Designator \"C23\" overlaps pad C23.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 860.6,
+          "y": -650
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C24",
+        "primitives": [
+          "00a478d85d081dc1e20"
+        ],
+        "message": "silk text Designator \"C24\" overlaps pad C24.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1829.4,
+          "y": -500
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C25",
+        "primitives": [
+          "e40eaaf13bc2b505e20"
+        ],
+        "message": "silk text Designator \"C25\" overlaps pad C25.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1620.6,
+          "y": -250
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C26",
+        "primitives": [
+          "98afd154950745f0e2"
+        ],
+        "message": "silk text Designator \"C26\" overlaps pad C26.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 935,
+          "y": -763.5
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C27",
+        "primitives": [
+          "b770f727ad4f4a01e2"
+        ],
+        "message": "silk text Designator \"C27\" overlaps pad C27.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 476.5,
+          "y": -305
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C28",
+        "primitives": [
+          "7a391a9b67394f15e2"
+        ],
+        "message": "silk text Designator \"C28\" overlaps pad C28.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 746.5,
+          "y": -827
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C29",
+        "primitives": [
+          "a8b172093fd0f713e2"
+        ],
+        "message": "silk text Designator \"C29\" overlaps pad C29.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 876.5,
+          "y": -580
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C30",
+        "primitives": [
+          "85b28e1249daf979e2"
+        ],
+        "message": "silk text Designator \"C30\" overlaps pad C30.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 666.5,
+          "y": -648
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C31",
+        "primitives": [
+          "dfbfec30025c9a12e2"
+        ],
+        "message": "silk text Designator \"C31\" overlaps pad C31.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1818.5,
+          "y": -565
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R22",
+        "primitives": [
+          "f88b06f8717796f5e2"
+        ],
+        "message": "silk text Designator \"C33\" overlaps pad R22.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 617,
+          "y": -1030
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C34",
+        "primitives": [
+          "d86dc442bf04b046e2"
+        ],
+        "message": "silk text Designator \"C34\" overlaps pad C34.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1850,
+          "y": -403.5
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C35",
+        "primitives": [
+          "b413f0f6d3f83dd4e2"
+        ],
+        "message": "silk text Designator \"C35\" overlaps pad C35.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 436.5,
+          "y": -650
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "J2",
+        "primitives": [
+          "a1a70ad00cc86597e26"
+        ],
+        "message": "silk text Designator \"J2\" overlaps pad J2.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 565.6,
+          "y": -1397.2
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "J3",
+        "primitives": [
+          "6ff1c89379955275e26"
+        ],
+        "message": "silk text Designator \"J3\" overlaps pad J3.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 2465.6,
+          "y": -549
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R20",
+        "primitives": [
+          "f54977088fec93fbe16"
+        ],
+        "message": "silk text Designator \"R20\" overlaps pad R20.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 827,
+          "y": -820
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R21",
+        "primitives": [
+          "03c27a1e8de8832ae16"
+        ],
+        "message": "silk text Designator \"R21\" overlaps pad R21.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 743,
+          "y": -1060
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R22",
+        "primitives": [
+          "900db851f949bebae16"
+        ],
+        "message": "silk text Designator \"R22\" overlaps pad R22.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 617,
+          "y": -1030
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R23",
+        "primitives": [
+          "67912ecefd951f65e16"
+        ],
+        "message": "silk text Designator \"R23\" overlaps pad R23.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1017,
+          "y": -1160
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R24",
+        "primitives": [
+          "927f74e70f3a6e37e16"
+        ],
+        "message": "silk text Designator \"R24\" overlaps pad R24.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 277,
+          "y": -1150
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R25",
+        "primitives": [
+          "086684a9870c95c9e16"
+        ],
+        "message": "silk text Designator \"R25\" overlaps pad R25.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 277,
+          "y": -700
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R26",
+        "primitives": [
+          "b24d3e188c441ddae16"
+        ],
+        "message": "silk text Designator \"R26\" overlaps pad R26.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 567,
+          "y": -395
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R27",
+        "primitives": [
+          "c0ebde4fbe89a238e16"
+        ],
+        "message": "silk text Designator \"R27\" overlaps pad R27.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 877,
+          "y": -200
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R28",
+        "primitives": [
+          "7fb6113462b3093ce16"
+        ],
+        "message": "silk text Designator \"R28\" overlaps pad R28.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1617,
+          "y": -1120
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R29",
+        "primitives": [
+          "cd882df28f48ebebe16"
+        ],
+        "message": "silk text Designator \"R29\" overlaps pad R29.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1817,
+          "y": -900
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R30",
+        "primitives": [
+          "44a2b40981324bd6e16"
+        ],
+        "message": "silk text Designator \"R30\" overlaps pad R30.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1817,
+          "y": -1000
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R31",
+        "primitives": [
+          "0ee3dcc5f5a72a39e16"
+        ],
+        "message": "silk text Designator \"R31\" overlaps pad R31.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1013,
+          "y": -290
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R32",
+        "primitives": [
+          "190c3e3dcc2b7575e16"
+        ],
+        "message": "silk text Designator \"R32\" overlaps pad R32.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1817,
+          "y": -1100
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R33",
+        "primitives": [
+          "7cb011640275a38be16"
+        ],
+        "message": "silk text Designator \"R33\" overlaps pad R33.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1927,
+          "y": -295
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R34",
+        "primitives": [
+          "483ecd01338ed1bce16"
+        ],
+        "message": "silk text Designator \"R34\" overlaps pad R34.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 947,
+          "y": -930
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "R35",
+        "primitives": [
+          "0494601a323c3cd9e16"
+        ],
+        "message": "silk text Designator \"R35\" overlaps pad R35.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 877,
+          "y": -300
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "U6",
+        "primitives": [
+          "aaf3aeec2d2d9867e166"
+        ],
+        "message": "silk text Designator \"U6\" overlaps pad U6.62 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1031.8,
+          "y": -925.6
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "U7",
+        "primitives": [
+          "8922f5997deabb02e38"
+        ],
+        "message": "silk text Designator \"U7\" overlaps pad U7.10 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 390.5,
+          "y": -462.6
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "U9",
+        "primitives": [
+          "fb875621f9920f50e23"
+        ],
+        "message": "silk text Designator \"U9\" overlaps pad U9.5 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 717.6,
+          "y": -648.3
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "U10",
+        "primitives": [
+          "85edeb9bf46571cfe46"
+        ],
+        "message": "silk text Designator \"U10\" overlaps pad U10.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 1911,
+          "y": -723.2
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "C36",
+        "primitives": [
+          "1499aa43ece990f5e2"
+        ],
+        "message": "silk text Designator \"C36\" overlaps pad C36.2 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 2431.5,
+          "y": -470
+        }
+      },
+      {
+        "type": "silk-over-pad",
+        "level": "WARN",
+        "layer": 4,
+        "designator": "L1",
+        "primitives": [
+          "48d15de7bd45c704e18"
+        ],
+        "message": "silk text Designator \"L1\" overlaps pad L1.1 — fab clips silk on exposed copper; move it (`pcb silk-align` / `pcb silk-set`) [规范 §11.2 丝印不压焊盘 — pcb-design-rules.md]",
+        "at": {
+          "x": 2473.5,
+          "y": -680.3
+        }
+      }
+    ],
+    "sides": {
+      "bottom": 44,
+      "top": 56
+    },
+    "signalNets": 84,
+    "ratsnestLenMil": 31860.58,
+    "crossingCount": 104,
+    "crossings": [
+      {
+        "netA": "$1N1082",
+        "netB": "DIN",
+        "x": 894.75,
+        "y": -316.21
+      },
+      {
+        "netA": "$1N1082",
+        "netB": "I2C_SCL",
+        "x": 916.29,
+        "y": -309.74
+      },
+      {
+        "netA": "$1N1082",
+        "netB": "LED_DATA",
+        "x": 857.74,
+        "y": -327.33
+      },
+      {
+        "netA": "$1N1086",
+        "netB": "PGOOD_STATUS",
+        "x": 1020.97,
+        "y": -343.33
+      },
+      {
+        "netA": "$1N11333",
+        "netB": "$1N4178",
+        "x": 369.93,
+        "y": -993.36
+      },
+      {
+        "netA": "$1N11333",
+        "netB": "BAT",
+        "x": 557.39,
+        "y": -1087.1
+      },
+      {
+        "netA": "$1N11345",
+        "netB": "BTN_B",
+        "x": 2457.41,
+        "y": -848.29
+      },
+      {
+        "netA": "$1N1550",
+        "netB": "BAT",
+        "x": 1899.42,
+        "y": -339.64
+      },
+      {
+        "netA": "$1N2289",
+        "netB": "GNSS_PPS",
+        "x": 1761.87,
+        "y": -532.47
+      },
+      {
+        "netA": "$1N2289",
+        "netB": "GNSS_RX",
+        "x": 1701.76,
+        "y": -550.49
+      },
+      {
+        "netA": "$1N2293",
+        "netB": "GNSS_TX",
+        "x": 1570.72,
+        "y": -524.88
+      },
+      {
+        "netA": "$1N2301",
+        "netB": "CHG_STATUS",
+        "x": 1019.94,
+        "y": -560.14
+      },
+      {
+        "netA": "$1N2301",
+        "netB": "DIN",
+        "x": 1126.85,
+        "y": -528.11
+      },
+      {
+        "netA": "$1N2301",
+        "netB": "GNSS_RESET",
+        "x": 1151.15,
+        "y": -520.82
+      },
+      {
+        "netA": "$1N2305",
+        "netB": "PGOOD_STATUS",
+        "x": 928.75,
+        "y": -522.59
+      },
+      {
+        "netA": "$1N2309",
+        "netB": "IMU_C1",
+        "x": 427.02,
+        "y": -543.16
+      },
+      {
+        "netA": "$1N2313",
+        "netB": "MAG_INT",
+        "x": 653.78,
+        "y": -540.1
+      },
+      {
+        "netA": "$1N2321",
+        "netB": "GNSS_ONOFF",
+        "x": 1888.06,
+        "y": -559.57
+      },
+      {
+        "netA": "$1N3366",
+        "netB": "BAT_ADC",
+        "x": 1013.08,
+        "y": -778.7
+      },
+      {
+        "netA": "$1N3366",
+        "netB": "GNSS_ONOFF",
+        "x": 1114.85,
+        "y": -748.2
+      },
+      {
+        "netA": "$1N3370",
+        "netB": "DIN",
+        "x": 1358.91,
+        "y": -739.97
+      },
+      {
+        "netA": "$1N3374",
+        "netB": "GNSS_RESET",
+        "x": 1536.01,
+        "y": -751.78
+      },
+      {
+        "netA": "$1N3386",
+        "netB": "BTN_B",
+        "x": 1957.42,
+        "y": -755.28
+      },
+      {
+        "netA": "$1N3390",
+        "netB": "USB_CC2",
+        "x": 381.68,
+        "y": -773.24
+      },
+      {
+        "netA": "$1N4158",
+        "netB": "GNSS_ONOFF",
+        "x": 1793.47,
+        "y": -956.1
+      },
+      {
+        "netA": "$1N4158",
+        "netB": "GNSS_ONOFF",
+        "x": 1722.75,
+        "y": -977.3
+      },
+      {
+        "netA": "$1N4166",
+        "netB": "BOOT",
+        "x": 1329.46,
+        "y": -965.4
+      },
+      {
+        "netA": "$1N4174",
+        "netB": "USB_CC2",
+        "x": 800.13,
+        "y": -994.23
+      },
+      {
+        "netA": "$1N4182",
+        "netB": "BATT_TS",
+        "x": 641.27,
+        "y": -976.95
+      },
+      {
+        "netA": "$1N4182",
+        "netB": "ISET_SET",
+        "x": 620.55,
+        "y": -983.16
+      },
+      {
+        "netA": "$1N4182",
+        "netB": "TMR_SET",
+        "x": 606.15,
+        "y": -987.48
+      },
+      {
+        "netA": "$1N4182",
+        "netB": "USB_CC2",
+        "x": 721.72,
+        "y": -952.82
+      },
+      {
+        "netA": "$1N4646",
+        "netB": "USB_CC1",
+        "x": 826.52,
+        "y": -1202.83
+      },
+      {
+        "netA": "$1N4650",
+        "netB": "USB_CC2",
+        "x": 1140.05,
+        "y": -1173.75
+      },
+      {
+        "netA": "BAT",
+        "netB": "BATT_TS",
+        "x": 553.23,
+        "y": -929.78
+      },
+      {
+        "netA": "BAT",
+        "netB": "BAT_ADC",
+        "x": 1191.77,
+        "y": -669.02
+      },
+      {
+        "netA": "BAT",
+        "netB": "BAT_ADC",
+        "x": 1895.32,
+        "y": -311.12
+      },
+      {
+        "netA": "BAT",
+        "netB": "BTN_B",
+        "x": 1297.32,
+        "y": -632.49
+      },
+      {
+        "netA": "BAT",
+        "netB": "CHG_STATUS",
+        "x": 709.81,
+        "y": -835.83
+      },
+      {
+        "netA": "BAT",
+        "netB": "DIN",
+        "x": 1256.62,
+        "y": -646.58
+      },
+      {
+        "netA": "BAT",
+        "netB": "GNSS_ONOFF",
+        "x": 1042.15,
+        "y": -720.8
+      },
+      {
+        "netA": "BAT",
+        "netB": "GNSS_PPS",
+        "x": 1681.28,
+        "y": -499.61
+      },
+      {
+        "netA": "BAT",
+        "netB": "GNSS_RESET",
+        "x": 1899.43,
+        "y": -424.11
+      },
+      {
+        "netA": "BAT",
+        "netB": "GNSS_RESET",
+        "x": 1322.63,
+        "y": -623.73
+      },
+      {
+        "netA": "BAT",
+        "netB": "GNSS_RESET",
+        "x": 1907.08,
+        "y": -392.84
+      },
+      {
+        "netA": "BAT",
+        "netB": "GNSS_RX",
+        "x": 1625.25,
+        "y": -519
+      },
+      {
+        "netA": "BAT",
+        "netB": "GNSS_TX",
+        "x": 1586.92,
+        "y": -532.26
+      },
+      {
+        "netA": "BAT",
+        "netB": "USB_CC1",
+        "x": 559.82,
+        "y": -1178.68
+      },
+      {
+        "netA": "BAT",
+        "netB": "USB_CC2",
+        "x": 583.17,
+        "y": -879.65
+      },
+      {
+        "netA": "BATT_TS",
+        "netB": "TMR_SET",
+        "x": 618.52,
+        "y": -964.76
+      },
+      {
+        "netA": "BAT_ADC",
+        "netB": "BTN_B",
+        "x": 1272.61,
+        "y": -627.9
+      },
+      {
+        "netA": "BAT_ADC",
+        "netB": "DIN",
+        "x": 1249.2,
+        "y": -639.81
+      },
+      {
+        "netA": "BAT_ADC",
+        "netB": "GNSS_ONOFF",
+        "x": 1069.63,
+        "y": -731.16
+      },
+      {
+        "netA": "BAT_ADC",
+        "netB": "GNSS_PPS",
+        "x": 1594.43,
+        "y": -464.18
+      },
+      {
+        "netA": "BAT_ADC",
+        "netB": "GNSS_RESET",
+        "x": 1303.44,
+        "y": -612.21
+      },
+      {
+        "netA": "BAT_ADC",
+        "netB": "GNSS_RX",
+        "x": 1548.65,
+        "y": -487.47
+      },
+      {
+        "netA": "BAT_ADC",
+        "netB": "GNSS_TX",
+        "x": 1520.28,
+        "y": -501.9
+      },
+      {
+        "netA": "BTN_A",
+        "netB": "CHG_STATUS",
+        "x": 925.67,
+        "y": -643.94
+      },
+      {
+        "netA": "BTN_A",
+        "netB": "LED_DATA",
+        "x": 1015.94,
+        "y": -620.6
+      },
+      {
+        "netA": "BTN_A",
+        "netB": "MAG_INT",
+        "x": 926.77,
+        "y": -643.66
+      },
+      {
+        "netA": "BTN_A",
+        "netB": "PGOOD_STATUS",
+        "x": 773.76,
+        "y": -683.21
+      },
+      {
+        "netA": "BTN_A",
+        "netB": "USB_CC2",
+        "x": 396.1,
+        "y": -780.86
+      },
+      {
+        "netA": "BTN_B",
+        "netB": "DIN",
+        "x": 1226.82,
+        "y": -619.38
+      },
+      {
+        "netA": "BTN_B",
+        "netB": "GNSS_ONOFF",
+        "x": 1846.31,
+        "y": -734.61
+      },
+      {
+        "netA": "BTN_B",
+        "netB": "GNSS_RESET",
+        "x": 1824.46,
+        "y": -730.55
+      },
+      {
+        "netA": "BTN_B",
+        "netB": "GNSS_RESET",
+        "x": 1355.16,
+        "y": -643.25
+      },
+      {
+        "netA": "CHG_STATUS",
+        "netB": "LED_DATA",
+        "x": 995.19,
+        "y": -582.14
+      },
+      {
+        "netA": "CHG_STATUS",
+        "netB": "MAG_INT",
+        "x": 926.22,
+        "y": -643.45
+      },
+      {
+        "netA": "DIN",
+        "netB": "GNSS_ONOFF",
+        "x": 1545.83,
+        "y": -910.62
+      },
+      {
+        "netA": "DIN",
+        "netB": "GNSS_RESET",
+        "x": 1056.96,
+        "y": -464.3
+      },
+      {
+        "netA": "DIN",
+        "netB": "I2C_SCL",
+        "x": 961,
+        "y": -376.69
+      },
+      {
+        "netA": "DIN",
+        "netB": "IMU_INT1",
+        "x": 981.07,
+        "y": -395.01
+      },
+      {
+        "netA": "DIN",
+        "netB": "IMU_INT2",
+        "x": 989.53,
+        "y": -402.73
+      },
+      {
+        "netA": "DIN",
+        "netB": "PGOOD_STATUS",
+        "x": 1018.7,
+        "y": -429.37
+      },
+      {
+        "netA": "GNSS_ONOFF",
+        "netB": "GNSS_PPS",
+        "x": 1882.76,
+        "y": -581.78
+      },
+      {
+        "netA": "GNSS_ONOFF",
+        "netB": "GNSS_RX",
+        "x": 1873.38,
+        "y": -621.12
+      },
+      {
+        "netA": "GNSS_ONOFF",
+        "netB": "GNSS_TX",
+        "x": 1864.42,
+        "y": -658.68
+      },
+      {
+        "netA": "GNSS_PPS",
+        "netB": "GNSS_RESET",
+        "x": 1862.84,
+        "y": -573.66
+      },
+      {
+        "netA": "GNSS_PPS",
+        "netB": "IMU_INT1",
+        "x": 1386.01,
+        "y": -379.17
+      },
+      {
+        "netA": "GNSS_PPS",
+        "netB": "IMU_INT2",
+        "x": 1386.87,
+        "y": -379.53
+      },
+      {
+        "netA": "GNSS_RESET",
+        "netB": "GNSS_RX",
+        "x": 1853.25,
+        "y": -612.83
+      },
+      {
+        "netA": "GNSS_RESET",
+        "netB": "GNSS_TX",
+        "x": 1844.28,
+        "y": -649.51
+      },
+      {
+        "netA": "GNSS_RX",
+        "netB": "IMU_INT1",
+        "x": 1294.22,
+        "y": -382.76
+      },
+      {
+        "netA": "GNSS_RX",
+        "netB": "IMU_INT2",
+        "x": 1298.85,
+        "y": -384.67
+      },
+      {
+        "netA": "GNSS_TX",
+        "netB": "IMU_INT1",
+        "x": 1261.56,
+        "y": -384.04
+      },
+      {
+        "netA": "GNSS_TX",
+        "netB": "IMU_INT2",
+        "x": 1267.02,
+        "y": -386.53
+      },
+      {
+        "netA": "I2C_SCL",
+        "netB": "IMU_INT1",
+        "x": 973.44,
+        "y": -395.31
+      },
+      {
+        "netA": "I2C_SCL",
+        "netB": "IMU_INT2",
+        "x": 978.81,
+        "y": -403.36
+      },
+      {
+        "netA": "I2C_SCL",
+        "netB": "PGOOD_STATUS",
+        "x": 1005.4,
+        "y": -443.16
+      },
+      {
+        "netA": "I2C_SDA",
+        "netB": "IMU_INT1",
+        "x": 595.16,
+        "y": -410.1
+      },
+      {
+        "netA": "I2C_SDA",
+        "netB": "IMU_INT2",
+        "x": 647.12,
+        "y": -422.73
+      },
+      {
+        "netA": "I2C_SDA",
+        "netB": "LED_DATA",
+        "x": 948.74,
+        "y": -496.02
+      },
+      {
+        "netA": "I2C_SDA",
+        "netB": "PGOOD_STATUS",
+        "x": 953.32,
+        "y": -497.13
+      },
+      {
+        "netA": "ILIM_SET",
+        "netB": "USB_CC2",
+        "x": 673.31,
+        "y": -927.25
+      },
+      {
+        "netA": "IMU_C1",
+        "netB": "IMU_INT2",
+        "x": 451,
+        "y": -434.18
+      },
+      {
+        "netA": "IMU_INT1",
+        "netB": "IMU_INT2",
+        "x": 1406.98,
+        "y": -378.35
+      },
+      {
+        "netA": "IMU_INT1",
+        "netB": "LED_DATA",
+        "x": 896.05,
+        "y": -398.34
+      },
+      {
+        "netA": "IMU_INT1",
+        "netB": "PGOOD_STATUS",
+        "x": 1028.42,
+        "y": -393.16
+      },
+      {
+        "netA": "IMU_INT2",
+        "netB": "LED_DATA",
+        "x": 901.2,
+        "y": -407.89
+      },
+      {
+        "netA": "IMU_INT2",
+        "netB": "PGOOD_STATUS",
+        "x": 1029.5,
+        "y": -400.4
+      },
+      {
+        "netA": "ISET_SET",
+        "netB": "TMR_SET",
+        "x": 611.57,
+        "y": -977.53
+      },
+      {
+        "netA": "LED_DATA",
+        "netB": "PGOOD_STATUS",
+        "x": 950.77,
+        "y": -499.78
+      },
+      {
+        "netA": "MAG_INT",
+        "netB": "PGOOD_STATUS",
+        "x": 842.7,
+        "y": -611.76
+      },
+      {
+        "netA": "USB_CC1",
+        "netB": "USB_CC2",
+        "x": 1271.35,
+        "y": -1243.1
+      }
+    ],
+    "summary": "score 0/100 (incomplete): 100 comps [bottom 44 / top 56], 0 short, 0 overlap, 0 off-board, 0 tight; 84 signal nets, ratsnest 31861mil, 104 crossings; geometry inspection incomplete"
+  }
+}

@@ -1,0 +1,5 @@
+# Local/generated files
+.easyeda/
+*.capture.json
+.DS_Store
+Thumbs.db

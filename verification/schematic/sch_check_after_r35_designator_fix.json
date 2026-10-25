@@ -1,0 +1,110 @@
+{
+  "id": "req_11008",
+  "ok": true,
+  "result": {
+    "passed": false,
+    "summary": {
+      "floatingPins": 0,
+      "componentsWithFloating": 0,
+      "geomNetMismatches": 0,
+      "netMarkerMismatches": 0,
+      "multiNetWires": 0,
+      "wireCrossings": 2,
+      "wireOverPins": 0,
+      "zeroLengthWires": 0,
+      "danglingWires": 0,
+      "duplicateNetMarkers": 0,
+      "titleblockOverlaps": 0,
+      "outOfSheet": 0,
+      "markerOverlaps": 0,
+      "missingPartitions": 1,
+      "redundantNetMarkers": 0,
+      "foldedNetLabels": 0,
+      "reversedNetFlags": 0,
+      "polarityConventionOutliers": 0,
+      "total": 9
+    },
+    "findings": [
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 1000,
+          "y": 270
+        }
+      },
+      {
+        "type": "wire-crossing",
+        "level": "info",
+        "count": 1,
+        "message": "已验证无接点正交内部交叉：原始段端不在交点、无引脚/标记，两个物理线岛的逐pin网络证据完整",
+        "at": {
+          "x": 1140,
+          "y": 740
+        }
+      },
+      {
+        "type": "designator-wire-overlap",
+        "level": "warn",
+        "designator": "R21",
+        "primitiveId": "b4f772a30afa6397",
+        "wirePrimitiveId": "02ca8efafebf3905",
+        "message": "wire crosses Designator text bbox",
+        "bbox": {
+          "minX": 190,
+          "minY": 745,
+          "maxX": 206.0516357421875,
+          "maxY": 755
+        }
+      },
+      {
+        "type": "designator-wire-overlap",
+        "level": "warn",
+        "designator": "C34",
+        "primitiveId": "c0ed4c6c927c9c32",
+        "wirePrimitiveId": "b33cd90094c6c966",
+        "message": "wire crosses Designator text bbox",
+        "bbox": {
+          "minX": 1490,
+          "minY": 710,
+          "maxX": 1506.0516357421875,
+          "maxY": 720
+        }
+      },
+      {
+        "type": "missing-partition",
+        "level": "warn",
+        "count": 44,
+        "message": "44 个器件的页已分成 4 个功能模块(虚拟组/认领)但一个分区框都没画 — 铁律#15:`sch zone-draw --mode partition`;被拒(partitionOverlap / titleBlockHits)就先跑 `sch zone-plan` 看逐条 ✗ —— 它点名是哪两个区顶住、还差多少,并给出一条 `sch zone move --zone \u003c区\u003e --dx/--dy \u003c量\u003e` 的最小挪动;挪完再画,整页重排 `sch zone-arrange --apply` 或拆页是最后一档"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U8",
+        "message": "模块 POWER_CHARGE(核心 U8,外围 J2,C20,C21,C22,C28,C29,C32,C33,R20,R21,R22,R23,R24,R25)没有全部用实际导线接到核心: peripheral-direct-missing: module POWER_CHARGE dedicated signal BAT pins [U8.2 U8.3 J2.1] are split into physical wire islands (at U8.3); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U6",
+        "message": "模块 MCU_CTRL(核心 U6,外围 C23,C24,C26,R28,R31,R32,R33,R34,R35)没有全部用实际导线接到核心: peripheral-direct-missing: module MCU_CTRL dedicated signal BAT_ADC pins [U6.5 R33.2 R34.1] are split into physical wire islands (at R33.2); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U7",
+        "message": "模块 IMU_SENSOR(核心 U7,外围 C27,C35,R26,R27)没有全部用实际导线接到核心: peripheral-direct-missing: module IMU_SENSOR dedicated signal I2C_SCL pins [U7.1 R27.1] are split into physical wire islands (at R27.1); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      },
+      {
+        "type": "peripheral-not-direct",
+        "level": "warn",
+        "designator": "U10",
+        "message": "模块 GNSS(核心 U10,外围 C25,C31,C34,R29,R30)没有全部用实际导线接到核心: peripheral-direct-missing: module GNSS dedicated signal GNSS_ONOFF pins [U10.7 R30.1] are split into physical wire islands (at R30.1); supply/ground connectivity and same-name labels cannot replace this branch — 同名标签不算直连;按 auto-layout-sop §2 走 `sch lib-layout` → `sch compose --preserve-instances` 重建"
+      }
+    ]
+  },
+  "type": "response",
+  "version": "v1"
+}
