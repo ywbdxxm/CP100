@@ -4,7 +4,7 @@ CP100 是一个基于 ESP32-S3、GNSS、三轴加速度计/磁力计和 WS2812B 
 
 ## 目录结构
 
-- `docs/`：产品设计、硬件设计、定位模块和 ESP32 天线选型文档。
+- `docs/`：产品设计、硬件设计、选型文档，以及 [EasyEDA 云端开发流程](docs/EasyEDA开发流程.md)。
 - `design/`：预留给可公开的设计资料；立创/EasyEDA 工程文件不上传到本仓库。
 - `outputs/pcb/`：当前 PCB 回读数据和顶/底层预览。
 - `outputs/schematic/`：当前原理图预览。
