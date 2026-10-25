@@ -13,16 +13,16 @@ CP100 是一个基于 ESP32-S3、GNSS、三轴加速度计/磁力计和 WS2812B 
 
 ## 当前设计状态
 
-- 保留现有像素指南针异形板框，四层板布局已完成。
-- Type-C 位于底边几何中心；S1/S2 分别位于左右侧边并朝外。
-- 底层临时 GND/VDD stub 已清理；只保留顶层灯板的 99 段既有电源走线。
-- 新增电路尚未完成 PCB 布线、铺铜和生产级 DRC，当前输出用于继续设计和审核。
+- CP100 原理图已拆成三页：保留灯板 P1，新增 `主控电源_IMU` 和 `GNSS_RF` 两张 A4 页。
+- 两张新页已完成器件放置、网络标签、地线干线、NC 标记、图签和分区框。
+- P2/P3 已完成保存、重载、回读；最终 schematic gate 均通过，官方 DRC 无 fatal/error。
+- PCB 仍处于布局完成、未开始正式布线的阶段；异形板框和灯板布局保持不变。
 
 ## EasyEDA 工程
 
 - 项目：`MC指南针`
 - 项目 UUID：`1be4f1c5e4144fea950b4497cac80aa8`
-- PCB 文档 UUID：`aac2d96fd1c54254a72fc9bfe6c8b2be`
-- 原理图文档 UUID：`85ca39e46377c6d2`
+- PCB 文档 UUID：`f0fcd51a86da5d3d`
+- CP100 原理图 UUID：`2cbdd638d241b2f9`
 
-EasyEDA 工程文件只保留在本机 `CP100_local_design/`，不上传到 GitHub。最终云端设计需要在 EasyEDA 中打开对应项目继续编辑。
+EasyEDA 工程文件只保留在立创 EDA 云端，不上传到 GitHub；仓库保存产品、硬件和验证文档。
